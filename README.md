@@ -9,8 +9,8 @@ You will need:
 
 ### Data and landmarking preparation
 1. Drag and drop your six claw models and the landmarking template into 3DSlicer. They will appear in the data module.
-2. Click the eye next to each claw model to make sure they're at the origin. They should all end up right on top of each other if the centering is correct: IMAGE HERE
-3. Right-click on the landmarking template and choose "clone". Repeat until there are 6 copies of the landmarking template. Rename each one with the same name as one of the claw models: IMAGE HERE
+2. Click the eye next to each claw model to make sure they're at the origin. They should all end up right on top of each other if the centering is correct: [figure 1](https://raw.githubusercontent.com/scutisorex/SPHARMtutorial/main/images/Fig%201.png)
+3. Right-click on the landmarking template and choose "clone". Repeat until there are 6 copies of the landmarking template. Rename each one with the same name as one of the claw models: [figure 2](https://raw.githubusercontent.com/scutisorex/SPHARMtutorial/main/images/fig%202.png)
 
 ### Place landmarks on claws
 1. In the Data module, hide all but one of your specimens by clicking the eyeball next to the model. Hide all the landmark lists except the one corresponding to that specimen.
@@ -19,7 +19,12 @@ You will need:
 4. Select the "Place a control point" tool, and hover over the 3D view. You will see that it's ready to place the "tip" landmark. IMAGE HERE
 5. Place it at the extreme distal tip of the claw. If you need to move the model around before you can place the landmark, right-click and it will turn off the tool. When you have the model in the right orientation, select the tool again and place the landmark. Place the remaining three landmarks the same way. IMAGE HERE
 6. Repeat steps 1-5 for all six specimens. If you show everything, it looks like this: IMAGE HERE
-7. Save landmarks in a new folder called "lms".
+7. Save landmarks as .json files, in a new folder called "lms".
 
 #### Align claws using DeCA
 1. Open the DeCA module. There are six items to specify for rigid alignment of your claws. 
+- for Base model, select one of the models in the directory with the centered claws.
+- for Base landmarks, select the corresponding .json landmarks (the ones that go with your Base model).
+- for Mesh directory, choose the place where your claw meshes are stored.
+- for Landmark directory, choose the "lms" directory you made in the previous section. 
+- 
