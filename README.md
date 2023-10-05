@@ -29,8 +29,9 @@ You will need:
 - for Landmark directory, choose the "lms" directory you made in the previous section. 
 - for Aligned mesh directory, make a new folder called "aligned_models".
 - for Aligned landmark directory, make a new folder called "aligned_lms".
+- Check the box that says "Remove scale".
 2. Click the "Run alignment" button. NB! this will only work if the names of the landmarks and the names of the models are IDENTICAL!
-3. Reopen the scene in Slicer. Navigate to your aligned_models directory, and drag and drop all the aligned meshes into Slicer. They should all be nicely aligned but will not be scaled in any way, so you might only see the biggest one. Hide it to see the others: ![figure 7](https://raw.githubusercontent.com/scutisorex/SPHARMtutorial/main/images/fig%207.png).
+3. Reopen the scene in Slicer. Navigate to your aligned_models directory, and drag and drop all the aligned meshes into Slicer. They should all be nicely aligned but will not be scaled in any way, so you might only see the biggest one. Hide it to see the others: ![figure 7](https://raw.githubusercontent.com/scutisorex/SPHARMtutorial/main/images/new%20fig%207.png).
 
 ### Make aligned models into labelmaps
 1. Right-click on one of your aligned models and select "Convert model to segmentation node". ![figure 8](https://raw.githubusercontent.com/scutisorex/SPHARMtutorial/main/images/fig%208.png)
