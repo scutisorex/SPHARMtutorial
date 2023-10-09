@@ -4,7 +4,7 @@ This is a tutorial for running SPHARM analysis on mammal claws using SPHARM-PDM,
 You will need:
 1. 3DSlicer: download the most recent stable release from [here](https://download.slicer.org/).
 2. A few extensions added to slicer: you will need SPHARM-PDM, SlicerIGT, and ShapePopulationViewer, which you can get through the [Extensions Manager](https://slicer.readthedocs.io/en/latest/user_guide/modules/extensionwizard.html). You will also need the DeCA module, which is not yet available through the extensions manager, but can be downloaded from [Sara Rolfe's GitHub](https://github.com/smrolfe/DeCA). Instructions on installing an extension from a file available [here](https://slicer.readthedocs.io/en/latest/user_guide/extensions_manager.html).
-3. Cleaned and downsampled claw models, centered at the origin for ease of use. You can find those [here](https://drive.google.com/drive/folders/106lqQWDnX4ug_r-MfuhWrRjKnLYkVoru?usp=sharing).
+3. Cleaned and downsampled claw models, centered at the origin for ease of use, plus the landmarking template. You can find all of those [here](https://drive.google.com/drive/folders/106lqQWDnX4ug_r-MfuhWrRjKnLYkVoru?usp=sharing). 
 4. A sense of humor.
 
 ### Data and landmarking preparation
