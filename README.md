@@ -8,7 +8,7 @@ You will need:
 4. A sense of humor.
 
 ### Data and landmarking preparation
-1. Drag and drop your six claw models and the landmarking template into 3DSlicer. They will appear in the data module.
+1. Drag and drop your six claw models, **and** the landmarking template, into 3DSlicer. They will appear in the data module.
 2. Click the eye next to each claw model to make sure they're at the origin. They should all end up right on top of each other if the centering is correct: ![figure 1](https://raw.githubusercontent.com/scutisorex/SPHARMtutorial/main/images/Fig%201.png)
 3. Right-click on the landmarking template and choose "clone". Repeat until there are 6 copies of the landmarking template. Rename each one with the same name as one of the claw models: ![figure 2](https://raw.githubusercontent.com/scutisorex/SPHARMtutorial/main/images/fig%202.png)
 
